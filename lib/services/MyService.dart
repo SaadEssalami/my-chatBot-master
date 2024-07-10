@@ -6,7 +6,7 @@ import 'dart:async';
 
 class MyService {
   final String apiUrl = 'https://api.openai.com/v1/chat/completions';
-  final String apiKey = '.'; 
+  final String apiKey = '..'; 
   Future<String> sendMessage(List<Messages> messages) async {
     final openAiModel = ChatCompletionModel(
       model: 'gpt-3.5-turbo',
